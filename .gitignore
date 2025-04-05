@@ -1,0 +1,40 @@
+# -----------------------------
+# Operating System / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code settings
+.vscode/
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# -----------------------------
+# C / C++ build artifacts
+# -----------------------------
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# -----------------------------
+# Logs / Generated files
+# -----------------------------
+LOGS/
+*.png
